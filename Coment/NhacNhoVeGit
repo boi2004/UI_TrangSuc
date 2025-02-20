@@ -1,6 +1,17 @@
 có 3 nhánh git là luận, nguyên, ngọc
 làm việc hãy vào từng nhánh của mỗi người rồi làm và đẩy lên nhánh  t coi oke thì hẵn  gộp  lại nhánh chính tránh trường hợp xung đột
 
-* các lệnh về  nhánh nếu quên
+* các lệnh về  nhánh nếu quên:
+1.Nếu bạn đang làm việc trên một nhánh khác (ví dụ: feature-xyz), thay main bằng tên nhánh bạn muốn đẩy:
+git push origin feature-xyz
+2. nếu bạn  muốn chuyển sang nhánh của mình
+git checkout -b feature-nhanh-cua-ban
+3.
 * đặt tên file theo cú pháp tên người tạo_tên thư mục_tên file
 vd: Nguyen_Header_RightHeader
+
+
+*Lệnh đẩy code lên 
+1. git add . 
+2. git commit - m "tên cần nhắc nhở"
+3. git push
